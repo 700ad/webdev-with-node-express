@@ -8,7 +8,8 @@
   "private": false,
   "scripts": {
     "test": "jest",
-    "lint": "eslint meadowlark.js lib"
+    "lint": "eslint meadowlark.js lib",
+    "start": "node meadowlark.js"
   },
   "dependencies": {
     "express": "^4.17.1",
