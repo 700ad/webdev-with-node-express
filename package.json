@@ -1,0 +1,12 @@
+{
+  "name": "webdevexpress",
+  "version": "1.0.0",
+  "description": "Code I Wrote While Following Web Development With Node and Express. A Book on Oreilly.com",
+  "main": "index.js",
+  "author": "Adeel Farzand adeel.farzand.1@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
