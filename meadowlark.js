@@ -1,6 +1,6 @@
 const express = require('express');
 const expresshandlebars = require('express-handlebars');
-
+const fortune = require('./lib/fortune');
 const app = express();
 
 app.engine('handlebars', expresshandlebars({
@@ -18,8 +18,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-    res.type('text/plain')
-    res.send('About Meadowlark Travel')
+    res.render('about', { fortune: fortune.getFortune() })
 })
 
 app.use((req, res) => {
