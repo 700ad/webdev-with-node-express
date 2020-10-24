@@ -14,9 +14,8 @@ The repo uses following tools.
 | NodeJs | [plugins/dropbox/README.md][PlDb] |
 | Express | [plugins/github/README.md][PlGh] |
 | Eslint | [plugins/googledrive/README.md][PlGd] |
-| J | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| Jest | [plugins/onedrive/README.md][PlOd] |
+| Puppeteer | [plugins/medium/README.md][PlMe] |
 
 
 
